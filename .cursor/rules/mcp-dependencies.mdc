@@ -1,3 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
 Rule Name: mcp-dependencies
 Description: 
 This project requires specific dependencies for MCP servers to function:
