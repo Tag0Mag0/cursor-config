@@ -1,0 +1,13 @@
+Rule Name: mcp-dependencies
+Description: 
+This project requires specific dependencies for MCP servers to function:
+
+1. Node.js with npx must be installed
+2. uv package manager must be installed (provides uvx)
+
+Before running any MCP-related commands:
+- Verify these dependencies are installed
+- Direct users to .cursor/README.md for setup instructions
+- If dependencies are missing, pause and help user install them
+
+The setup script at .cursor/setup_deps.sh can automatically install these dependencies.

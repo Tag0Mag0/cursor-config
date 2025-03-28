@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+When performing any tasks or analysis that requires the current date and time:
+1. ALWAYS use the system time server by running the `date` command to get the accurate current time
+2. DO NOT rely on assumptions or static date information
+3. Use this time information for:
+   - Timestamp-based operations
+   - Date calculations
+   - Time-sensitive analysis
+   - Log entries
+   - Any other time-dependent tasks
+4. Format the date and time appropriately for the specific use case
+5. Consider timezone information when relevant to the task

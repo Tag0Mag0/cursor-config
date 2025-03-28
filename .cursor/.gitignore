@@ -1,0 +1,7 @@
+# Sensitive configuration files
+.env
+mcp.json
+
+# Generated files
+*.log
+.DS_Store
